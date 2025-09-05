@@ -1,0 +1,17 @@
+import random
+AI = random.choice(["rock", "paper", "scissors"]) #all code made by Joel or ThatOneDev-studio
+while True:
+    PL = input("Let's play rock paper scissors! Pick a choice and exit or quit to leave (lower case): ")
+    if PL == AI:
+         print("Tie")
+    elif PL == "rock" and AI == "paper":
+        print("Win")
+    elif PL == "paper" and AI == "rock":
+        print("Win")
+    elif PL == "scissors" and AI == "paper":
+        print("Win")
+    elif PL == "exit" or "quit":
+        print("Exiting")
+        break
+    else:
+        print("Lose")
