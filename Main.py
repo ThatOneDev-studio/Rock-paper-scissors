@@ -10,8 +10,5 @@ while True:
         print("Win")
     elif PL == "scissors" and AI == "paper":
         print("Win")
-    elif PL == "exit" or "quit":
-        print("Exiting")
-        break
     else:
         print("Lose")
